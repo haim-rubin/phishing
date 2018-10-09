@@ -13,20 +13,6 @@
           "outFiles": [
             "${workspaceRoot}/build/**/*.js"
           ]
-        },
-        {
-          "type": "chrome",
-          "request": "attach",
-          "name": "Attach to Chrome",
-          "port": 9222,
-          "sourceMaps": true,
-          "webRoot": "${workspaceRoot}/src",
-          "sourceMapPathOverrides": {
-          "webpack:///src/*": "${webRoot}/*"
-          },
-          "outFiles": [
-            "${workspaceRoot}/build/**/*.js"
-          ]
         }
       ]
 }
