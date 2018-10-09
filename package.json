@@ -4,7 +4,7 @@
   "description": "Example of phising a bank",
   "main": "index.js",
   "scripts": {
-    "debug": "./node_modules/nodemon/bin/nodemon.js index.js"
+    "debug": "./node_modules/nodemon/bin/nodemon.js --inspect index.js"
   },
   "repository": {
     "type": "git",
