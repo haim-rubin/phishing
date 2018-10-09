@@ -1,0 +1,87 @@
+body.lotusui {
+    background-color: #F5F6F7;
+    color: #222222;
+}
+
+.ibmPortalHiddenText{
+	display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0px;
+	
+}
+
+.wpthemeControlHeader {
+    display: none;
+}
+.lotusMain {
+	width:980px;
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	/*Emil	   border-top:1px solid #d6dadf; */
+	border-radius: 0 0 0 0;
+	margin: 0 auto;
+	background: #fff;
+	border-width: 0px;
+	/*min-height: 620px; might not be necessary*/
+	padding-bottom:30px;
+}
+.lotusFrame {
+	padding: 0;
+	width:1004px;
+}
+
+.lotusContent {
+	margin: 0;
+	padding: 20px 30px 30px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-top-width: 0 !important;
+}
+
+
+.lotusFooter {
+	-moz-border-radius: 0;
+	border-radius: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.layoutColumn {
+	width: 100% !important;
+}
+.layoutRow {
+	width: 100% !important;
+}
+
+
+.lotusFrame {
+	background-color: #fff;
+	overflow: hidden;
+	text-align: right;
+}
+
+
+.locale_ar,.locale_iw,.locale_he,.locale_ja,.locale_ko,.locale_zh,.locale_zh_TW,.locale_th
+	{
+	font-size: 87.5% !important
+}
+
+.locale_ar .lotusTitleBar .lotusTabs,.locale_iw .lotusTitleBar .lotusTabs,.locale_he .lotusTitleBar .lotusTabs,.locale_ja .lotusTitleBar .lotusTabs,.locale_ko .lotusTitleBar .lotusTabs,.locale_zh .lotusTitleBar .lotusTabs,.locale_zh_TW .lotusTitleBar .lotusTabs,.locale_th .lotusTitleBar .lotusTabs
+	{
+	padding-top: 1.2em
+}
+
+.SiteNotification {
+	background: #fff458 none repeat scroll 0 0;
+    border-bottom: 2px solid red;
+    color: #00659f;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+   }

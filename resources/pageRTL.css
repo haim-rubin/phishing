@@ -1,0 +1,443 @@
+
+ 	html,body ,ul,form{margin:0px;padding:0px; text-align: center;} 
+	body {font-family:arial;font-size:100%; text-align: right; background:transparent;}
+	input, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBC9D1;
+    color:#596A76;
+	line-height:19px;
+    outline: 0 none;
+	}
+	select, input, textarea, button {
+    border-radius: 3px 3px 3px 3px;
+    font-family: Arial,Verdana,sans-serif;
+    vertical-align: middle;
+	}
+	input::-ms-clear {
+		display:none;
+	}
+	p {
+    color: #394F5A;
+    line-height: 1.3em;
+	}
+	a{
+  	font-size:12px;
+	line-height:19px;
+	}
+	.flr {
+		float:right;
+	}
+	.fll {
+		float:left;
+	}
+	.fibi_error.fibi_pwd_error {
+	height:24px;
+	display: block;
+	direction: ltr;
+	padding-right:19px;
+	float:right;
+	width:194px;
+	}
+	.fibi_error.fibi_pwd_error p {
+    color: #a71117;
+    font-size: 12px;
+	line-height:12px;
+	text-align: right;
+	margin:0;
+	}
+	.fibi_error.fibi_pwd_error.renew {
+    display: block;
+    padding-right: 19px;
+    float: right;
+    width: 194px;
+    vertical-align: middle;
+    margin: 5px 0 0 0;
+	height:auto;
+	}
+	.fibi_error.fibi_pwd_error.renew p{
+	background: url("images/attention.png") no-repeat scroll right center transparent;
+	float: none;
+    padding: 3px 30px 5px 0;
+    line-height: normal;
+    width: 170px;
+    display: inline-block;
+    vertical-align: middle;
+	}
+	.fibimain {
+		background: #fff url("images/fibilogin-bg1-sprite.jpg") repeat-x top ;
+		border-top:1px solid #adc0c4;
+		border-right:1px solid #adc0c4;
+		border-left:1px solid #adc0c4;
+		border-bottom:1px solid #adc0c4;
+		min-height:176px;
+		width: 230px;
+		/*padding:12px 0 0 0;*/
+		display:inline-block;
+		box-sizing:border-box;
+	}
+	
+	.fibi_login {
+	}
+	.fibimain.passchange {
+		
+		
+	}
+	span.heading{
+	color: #1F3D59;
+    font-size: 18px;
+    height: 25px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    padding-left: 17px;
+    padding-right: 19px;
+	margin-top:8px;
+	}
+	.fibi_login input {
+	border: 1px solid #BBC9D1;
+    color: #596A76;
+    direction: rtl;
+    font-family: Arial;
+    font-size: 15.6px;
+    height: 25px;
+    line-height: 25px;
+    margin: 4px 0 4px 0;
+    padding-right: 7px;
+    text-align: right;
+    width: 185px;
+	}
+	#client_avatar {
+		
+	}
+	.fibi_login input:focus {
+	border: 1px solid #076dbb;
+	}
+	.fibi_login .fibi_submit {
+    float: left;
+    /* background: #ccc; */
+    height: 29px;
+    margin-left: 18px;
+    margin-top: 6px;
+        width: 100%;
+    float: none;
+    border: none;
+    position:relative;
+    background: url("images/btn_login2.gif") center top no-repeat;
+    width: 100%;
+    margin-left: 0px;
+ }
+	.fibi_btn {
+    background: url("images/bg_fibi-button.png") repeat-x;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius:  3px 3px 3px 3px;
+	border-radius:  3px 3px 3px 3px;
+	border:none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 21px;
+    margin: 0 5px;
+    padding: 0 7px 4px;
+    text-align: center;
+	cursor:pointer;
+	}
+	.fibi_login .fibi_submit:hover, .fibi_login .fibi_submit:focus{
+    background: url("images/btn_login2.gif") center -29px no-repeat;
+  }
+  .fibi_login .fibi_submit.renew{
+      margin-top: 41px;
+  }
+	.fibi_login.fibi_submit:hover > * {
+	cursor:pointer;
+	}
+	.fibi_login .fibi_submit input {
+   line-height: 28px;
+	width: 202px;
+    height: 28px;
+    margin: 0;
+    padding: 1px 16px 6px 16px;
+    background: url(images/arr_login.png) 65px center no-repeat;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+ }
+	.fibi_login .fibi_submit input.fibi_btn_renew {
+	background: url("images/arr_login.png") no-repeat 10px center;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 29px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+        width: 90%;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:2;
+	    width: 172px;
+	}
+	.fibi_submit:hover > * {
+	cursor:pointer;
+	}
+	.fibi_security {
+	width:100%;
+    margin-top:0;
+    /*float:right;*/
+	overflow:hidden;
+	background:url("images/divider_grey.png") no-repeat bottom left #fff;
+	padding: 25px 0 30px;
+	display:none;
+	position:relative;
+}
+	#portalCaptcha {
+    display: inline-block;
+	}
+	.fibi_security p {
+	color: #076DBB;
+	text-decoration:underline;
+	text-align:right;
+	font-size:12px;
+	padding: 4px 50px 0 0;
+	}
+	.fibi_forgot_pwd {
+    color: #076DBB;
+    font-size: 12px;
+    padding-right: 19px;
+    padding-top: 6px;
+    margin-top: 1px;
+    width: 190px;
+    text-align:right;
+ }
+	.fibi_forgot_pwd p {
+		margin:0;
+	}
+	.fibi_security p:hover, .fibi_security p:focus, .fibi_security p:active,
+	.fibi_forgot_pwd p.fpass:hover, .fibi_forgot_pwd p.fpass:focus, .fibi_forgot_pwd p.fpass:active{
+    color: #05386B;
+    text-decoration: underline;
+	cursor:pointer;
+	}
+	.fibi_security img {
+	}
+       label.watermark{
+		padding-right:10px !important;
+	}
+
+.maindialog > p, .maindialog > div{
+	color:#394F5A;
+}
+.maindialog h1, .everdialog_4 h1, .only_bg_div{
+	background: url("images/divider_grey.png") repeat-x scroll center bottom transparent;
+    color: #00659F;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.maindialog p strong {
+	font-weight:bold;
+}
+p.fpass {
+    /*bottom: 14px;*/
+	bottom:15px;
+    color: #076DBB;
+    font-size: 12px;
+    margin: 0;
+    position: absolute;
+    right: 8px;
+    text-decoration: underline;
+    z-index: 10;
+}
+p.fpass.kupot {
+	bottom: 16px;
+}
+p.forgotpass {
+    color: #076DBB;
+    font-size: 12px;
+    margin: 0;
+    text-decoration: underline;
+	cursor:pointer;
+}
+.dividerlogin {
+	background: url(images/divider_grey.png) repeat-x;
+	float: right;
+    height: 7px;
+    margin: 18px 0px 0px 0;
+    width: 228px;
+}
+p.fpass:hover, p.fpass:focus, p.fpass:active {
+	color: #05386B;
+	font-size:12px;
+    text-decoration: underline;
+	cursor:pointer;
+}
+
+#clear-2both {
+ background-image: url('/bs/bimage.jsp'); 
+ }
+	body.maindialog {
+		margin:10px;
+		text-align:center;
+		overflow:hidden;
+	}
+	.maindialog h1 {
+	background-color: #4F799F;
+	background-image:url("images/bg_table_header.png");
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+   	color: #ffffff;
+	height: 32px;
+	font-size:23px;
+	text-align: right;
+	text-shadow: 0 1px #000;
+	white-space: nowrap;
+	padding: 0 40px 0 0;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius:  3px 3px 3px 3px;
+	border-radius:  3px 3px 3px 3px;
+	direction:rtl;
+	}
+	.wrap_content {
+    background: url("images/dot_pattern.gif") repeat ;
+    border: 1px solid #BBC9D1;
+    -moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius:  3px 3px 3px 3px;
+	border-radius:  3px 3px 3px 3px;
+    padding: 10px;
+}
+.fibi_submit span{
+	color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    position: absolute;
+	z-index:1;
+    right: 8px;
+        left: 0;
+    right: 0;
+}
+	.maindialog p {
+	text-align:right;
+	padding: 0 10px 0 0;
+	direction:rtl;
+	font-size:14px;
+	}
+.change-success p  {
+	background: url("images/success_icon.png") right center	no-repeat;
+	border: medium none;
+    color: #007D00;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+    margin: 0;
+    padding: 5px 15px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 185px;
+}
+.toOldSite label[for="password"], .toOldSite input#password,.toOldSite div.fibi_forgot_pwd{
+	display:none !important;
+}
+#msgCont {
+	background: url("images/attention.png") no-repeat scroll right center transparent;
+	float: none;
+    padding-right: 30px;
+    width: 170px;
+	margin-right:15px;
+	display:table;
+}
+#mymessage {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
+/*div.info_msg {
+	display:none;
+}*/
+.toOldSite div.info_msg {
+    background: url("images/attention_orange.png") no-repeat scroll right center transparent;
+    color: #416B8F !important;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 3px 32px 0 0;
+    text-align: right;
+    width: 160px;
+	display:inline-block;
+}
+span.error_fibi_username {
+		top: 3px;
+		right:56px;
+		width: 151px;
+	}
+span.error_fibi_password {
+		top: 4px;
+		right:56px;
+		width: 151px;
+	}
+span.error {	
+		color: #A71117;
+		font-size: 12px;
+
+		position: absolute;
+		text-align: right;
+
+	}
+label.error {	
+		color: #999999;
+		font-size: 12px;
+		left: -7px;
+		position: absolute;
+		text-align: right;
+		top: 50px;
+		width: 200px;
+	}
+	#usernamediv {
+		color: #999999;
+		font-size: 12px;
+		left: -7px;
+		line-height: 14px;
+		position: absolute;
+		text-align: right;
+		top: 31px;
+		width: 100px;
+	}
+	#passworddiv {
+		color: #999999;
+		font-size: 12px;
+		left: -7px;
+		line-height: 14px;
+		position: absolute;
+		text-align: right;
+		top: 68px;
+		width: 100px;
+	}
+	label.error[for="password"] {
+		top: 3px;
+		width: 168px;
+	}
+	label.error[for="username"] {
+		top: -34px;
+		width: 168px;
+	}
+	.fibi_username.error, .fibi_username.error:focus, .fibi_password.error, .fibi_password.error:focus {
+		border:1px solid #999999 !important;
+	}
+div#msgCont.change-success {
+    background: none repeat scroll 0 0 transparent;
+    padding-right: 10px;
+    width: 188px;
+}
+.commentlink {
+	background:#fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0871c4;
+    margin: 5px 18px 0 0;
+        text-decoration: underline;
+    border: 0px;
+    border-radius: 3px;
+    padding: 4px 10px;
+}

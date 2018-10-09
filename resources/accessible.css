@@ -1,0 +1,400 @@
+/************************
+*        General        *
+************************/
+body { font-size: 100%;}
+
+a.fibi_btn_show {font-size: 14px;}
+
+.data_token {
+	font-size: 1.5em;;
+    height: 22px;
+}
+/************************
+*    Page  Header       *
+************************/
+/***** Start of Upper Header *****/
+.fibi_current_date {
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+.topnav_upper_middle {width: 350px;}
+
+.fibi_search_field {font-size: 1.5em;}
+
+.fibi_topnav_upper_left, .fibi_topnav_upper_left a, .fibi_topnav_upper_left label {font-size: 1.2em;}
+
+.fibi_header_left_nav {width: 700px;}
+
+.fibi_user_info .fibi_wrapper { width: 396px;}
+
+/*.fibi_user_info>div, .fibi_user_info .fibi_account>div, .fibi_user_info .fibi_account label {
+    font-size: 15px;
+}
+
+.fibi_access > span {font-size: 14px;}*/
+/***** End of Upper Header *****/
+
+/***** Start of Lower Header *****/
+ul.fibi_main_menu>li>a {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+ul.fibi_main_menu>li a .fibi_primary_title {
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+
+ul.fibi_main_menu>li a .fibi_secondary_title {
+    font-size: 14px;
+	pa
+}
+
+/***** Main Menu Second Level *****/
+.fibi_submenu_title {
+	font-size: 19px;
+	padding-bottom: 5px;
+	}
+
+ul.fibi_main_menu > li .fibi_submenu li a, .fibi_submenu a.strong {
+    font-size: 18px;
+    line-height: 18px;
+}
+/***** /Main Menu Second Level *****/
+
+/***** fibi_breadcrumbs ******/
+.fibi_breadcrumbs {height: 18px;}
+
+.fibi_breadcrumbs span a {font-size: 16px;}
+
+.fibi_breadcrumbs .separator img {padding: 2px 0;}
+/***** End of Lower Header *****/
+/********** End of Header **********/
+
+/************************
+*    Page  Footer       *
+************************/
+/********** Start of Footer **********/
+.fibi_bottom_nav > ul {width: 997px;}
+
+.fibi_bottom_nav ul li.menuparent {
+    min-height: 246px;
+    padding: 0 14px;
+    font-size: 18px;
+}
+
+.fibi_bottom_nav ul li.menuchild a {
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+/***** Start of Social_Networks *****/
+.fibi_footer .fibi_social_networks {
+    margin: 30px auto 7px;
+}
+
+.fibi_footer .fibi_social_networks a {
+    font-size: 13px;
+}
+/***** End  of Social_Networks *****/
+
+.fibi_bottom_links ul li a {
+    padding: 0 8px;
+    font-size: 1.3em;
+}
+
+div.fibi_bottom_links {width: 100%;}
+
+/********** End of Footer **********/
+
+/************************
+*   Main Page Content   *
+************************/
+/********** Start of Gallery **********/
+/***** Start of Gallery Nav *****/
+.fibi_gallery_nav .fibi_title_explained h1 {
+    font-size: 60px;
+    line-height: 0.82em
+}
+
+.fibi_gallery_nav .fibi_title_explained h2 {font-size: 21px;}
+
+.fibi_gallery .fibi_gallery_navbar li.active div.fibi_wrapper .header {
+    visibility: visible;
+}
+
+.fibi_gallery .fibi_gallery_navbar li a {
+    position: absolute;
+    top: 10px;
+    padding: 15px 20px;
+    width: 93px;
+    height: 41px;
+    font-size: 22px;
+}
+
+/***** Start of hp Login *****/
+.fibi_login_wrapper .fibi_login {
+    position: relative;
+    height: 128px;
+    width: 192px; 
+}
+
+.index.fibi_page_content .fibi_login .fibi_submit input {
+    font-size: 16px;
+}
+
+.fibi_login_wrapper .fibi_error {font-size: 14px;}
+
+.fibi_login_wrapper .fibi_forgot_pwd,
+.fibi_login_wrapper .fibi_forgot_pwd a {
+    font-size: 14px;
+}
+
+.fibi_login_wrapper .fibi_security {
+    padding-top: 15px;
+    height: 45px;
+}
+
+.fibi_login_wrapper .fibi_security a {font-size: 16px;}
+
+.fibi_login_wrapper .fibi_inet_benefit a {font-size: 18px;}
+
+.fibi_login_wrapper .fibi_security_img div.flr {font-size: 14px;}
+/********** End of Gallery **********/
+
+/********** Start of Rates **********/
+/***** Start of Rates Carousel *****/
+.fibi_rates .fibi_carousel_wrapper .carousel li a {
+    padding: 13px 10px;
+    height: 88px;
+    width: 87px;
+    line-height: 160%;
+}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .update_time {font-size: 14px;}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .fibi_share_name {
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .fibi_trend {
+    padding-top: 7px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .up {
+    background: url("../images/hp/u_ar.png") 26px 12px no-repeat;
+}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .down {
+    background: url("../images/hp/d_ar.png") 26px 12px no-repeat;
+}
+
+.fibi_rates .fibi_carousel_wrapper .carousel li a .etc {
+    padding-top: 8px;
+    font-size: 14px;
+}
+/***** End of Rates Carousel *****/
+
+/***** Start of Currency Rates *****/
+.fibi_rates .fibi_currency_rates_header {font-size: 14px;}
+
+.fibi_section_title h3 {
+    width: 110px;
+    font-size: 15px;
+}
+
+.fibi_rates .fibi_currency_rates li span.rate {
+    line-height: 32px;
+    font-size: 18px;
+}
+
+/********** Start of Stock **********/
+/***** Stock Menubar *****/
+.fibi_stocks .fibi_stock_menubar li a {
+    font-size: 21px;
+    padding: 0 14px;
+}
+
+/***** Period Menubar *****/
+.fibi_stocks .fibi_report_period li .fibi_wrapper a,
+.fibi_stocks .fibi_report_period li.first .fibi_wrapper div {
+    padding: 0 4px;
+    font-size: 16px;
+}
+
+.fibi_stocks .fibi_report_period li.active div.fibi_wrapper .fibi_report_period_footer {
+/*, .stocks .fibi_report_period li:hover div.fibi_wrapper .fibi_footer */
+    visibility: visible;
+}
+
+/***** Graph Report *****/
+.fibi_stocks .fibi_report_wrapper .fibi_report_legend .fibi_share_name {font-size: 18px;}
+
+.fibi_report_wrapper .fibi_report_legend li .fibi_trend {font-size: 16px;}
+
+.fibi_stocks .fibi_report_wrapper .fibi_report_legend .up {
+    background: url("../images/hp/u_ar.png") 0 15px no-repeat;
+}
+
+.fibi_stocks .fibi_report_wrapper .fibi_report_legend .down {
+    background: url("../images/hp/d_ar.png") 0 15px no-repeat;
+}
+
+.fibi_stocks .fibi_report_wrapper .fibi_report_legend .etc {
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.fibi_up_to_date {margin-top: 2px;}
+
+.fibi_report_wrapper .fibi_report .fibi_tooltip {font-size: 14px;}
+
+.fibi_stocks .fibi_report_legend .fibi_up_to_date span {font-size: 13px !important;}
+/********** End of Stock **********/
+
+/************************
+*      Inner Page       *
+************************/
+/********** Start of Right Sidebar **********/
+.right_sidebar .right_menu>li>a {
+    padding-right: 16px;
+    min-height: 36px;
+    height: auto;
+    line-height: 36px;
+    font-size: 18px;
+}
+.inner .right_menu h3,
+.right_sidebar .right_submenu a,
+.right_sidebar .right_submenu ul li a,
+.hide_sidebar {
+	font-size: 16px;
+}
+/********** End of Right Sidebar **********/
+
+/***** Start of Page Content *****/
+.lotusFrame {font-size: 1.2em;}
+
+.heading.plus h1 {
+    font-size: 1.83em;
+}
+.inner h2 {
+    font-size: 22px;
+}
+.main_content, .main_content table, .main_content a {/*font-size: 1.2em;*/
+	font-size:18px;
+	line-height:normal;
+}
+
+.inner .acc_balance .label {font-size: 20px;}
+
+.inner .acc_balance .withdrawal_balance,
+.inner .acc_balance .current_balance {
+    font-size: 20px;
+}
+
+.inner .additional_details a, .page-link {font-size: 14px;}
+
+.inner tfoot .additional_details li {max-width: 183px;}
+}
+
+.inner .additional_details li {margin-left: 7px;}
+
+.acc_form .additional_details li.last20 a {padding-right: 10px;}
+
+.filter_form .constant_header a,
+.filter_form  a.minimize {
+    font-size: 13px;
+}
+
+.filter_form .constant_header label {font-size: 16px;}
+
+.filter_form label.trans_type, .filter_form label.stock_type {padding-right: 5px;}
+
+.constant_header a.show {font-size: 14px;}
+
+.filter_form input, .filter_form select, .filter_form label {font-size: 1.2em;}
+
+.filter_form input {max-width:440px}
+html body.lotusui div.lotusFrame div#lotusMain.lotusMain div#layoutContainers table.layoutRow tbody tr td table.layoutColumn tbody tr td div.wpsPortletBody div#T10C1525.main_content table tbody tr td div.filter_form table.tbl_layout tbody tr td.without_bottom_padding select.normal_select
+.normal_select, .second_label {font-size: 16px;}
+.datepicker {padding-top: 1px;}
+
+/***** Inner Table General *****/
+
+
+/***** Table Header *****/
+.main_content table.data thead tr td, .main_content table.data thead tr th,
+.main_content table.data tfoot tr td{
+    font-size: 1.2em;
+}
+/***** End of Table Header *****/
+
+/*table tr.transaction td {font-size: 15px;}
+
+table tr.transaction td.details {font-size: 16px;}
+
+table tr.transaction td.date, table tr.transaction td.time {font-size: 14px;}
+
+table tr.notes {font-size: 13px;}*/
+
+.main_content table tfoot td {border: 1px solid #bbc9d1;}
+
+/********** Start of Left Sidebar **********/
+.left_sidebar .need_help a {font-size: 18px;}
+
+.left_sidebar .left_menu li a {font-size: 15px;}
+
+/********** End of Left Sidebar **********/
+.status_line > div, .info_line > div {font-size: 18px;}
+
+/********** Stock Details *********/
+.fibi_up_date span {font-size: 1.2em;}
+
+.inner_tabs_headers {height: 29px;}
+
+.inner_tabs_headers li a {font-size: 1.3em;}
+
+.fibi_company_announce .announce_time {
+    font-size: 13px;
+    padding: 0 2px;
+}
+
+.fibi_company_announce .announce_content {
+    padding: 0 7px 0 5px;
+    font-size: 13px;
+}
+/********** End of Stock Details *********/
+
+/************* Stock Briefcase  ************/
+.filter_results > div {
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.filter_results .fibi_stocks_shown {padding-right: 0;}
+
+.filter_results .fibi_day_change {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.filter_results .fibi_change_date {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.scrollable_content {width: 546px;}
+
+.inner_tab .scrollable_content {width: 502px;}
+
+.page_link.allacts {
+    width: 99px;
+}
+.page_link.addinfo {
+    width: 87px;
+}

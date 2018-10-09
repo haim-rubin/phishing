@@ -1,0 +1,24 @@
+{
+  "name": "phishing",
+  "version": "1.0.0",
+  "description": "Example of phising a bank",
+  "main": "index.js",
+  "scripts": {
+    "debug": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haim-rubin/phishing.git"
+  },
+  "author": "Haim Rubin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haim-rubin/phishing/issues"
+  },
+  "homepage": "https://github.com/haim-rubin/phishing#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "npx": "^10.2.0"
+  }
+}
